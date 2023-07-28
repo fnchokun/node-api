@@ -21,5 +21,3 @@ app.get('/ping', function (req, res, next) {
 app.listen(PORT, function () {
     console.log(`CORS-enabled web server listening on port ${PORT}`)
 })
-
-export default App;
