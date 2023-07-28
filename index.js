@@ -8,7 +8,7 @@ app.use(cors())
 
 app.get('/', function (req, res, next) {
     res.json({
-        message: `Hello World2!`
+        message: `Hello World2a!`
     })
 })
 
