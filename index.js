@@ -14,7 +14,7 @@ app.get('/', function (req, res, next) {
 
 app.get('/ping', function (req, res, next) {
     res.json({
-        message: `Pong!`
+        message: `Pong!!`
     })
 })
 
