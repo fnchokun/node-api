@@ -23,7 +23,7 @@ app.get('/time', function (req, res, next) {
     let hours = date.getHours();
     let minutes = date.getMinutes();
 
-    let h_m = hours + minutes;
+    let h_m = `${hours}:${minutes}`;
     
     res.json({
         'time': h_m
