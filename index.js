@@ -27,8 +27,9 @@ app.get('/time', function (req, res, next) {
     
     res.json({
         'time': h_m
-    });
-}
+    })
+});
+
 app.listen(PORT, function () {
     console.log(`CORS-enabled web server listening on port ${PORT}`)
 })
